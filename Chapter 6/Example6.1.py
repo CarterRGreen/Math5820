@@ -83,4 +83,4 @@ K = 40
 X_0_init = [0 for i in range(K)]
 X_0_init[15] = 500
 X_0_init[16] = 500
-plotRuns(X_0=X_0_init, d=.16, K=40, k2=2e4,k1=1e-3, endTime=240, numRuns=1)
+plotRuns(X_0=X_0_init, d=.16, K=40, k2=2e4, k1=1e-3, endTime=1800, numRuns=1)
